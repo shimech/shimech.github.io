@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="ポケットモンスター ソード・シールドのポケモン図鑑をCSV形式で生成するCLIアプリケーション">
+  <meta name="description" content="メッセージから川柳を生成するBOT">
 
   
-  <link rel="alternate" hreflang="en-us" href="/project/pokemon_dbmaker/">
+  <link rel="alternate" hreflang="en-us" href="/project/senryu_bot/">
 
   
 
@@ -208,30 +208,31 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/project/pokemon_dbmaker/">
+  <link rel="canonical" href="/project/senryu_bot/">
 
   
   
   
   
     
+    
   
   
-  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:card" content="summary">
   
   <meta property="twitter:site" content="@shimechVR">
   <meta property="twitter:creator" content="@shimechVR">
   
   <meta property="og:site_name" content="Shuntaro Shimizu">
-  <meta property="og:url" content="/project/pokemon_dbmaker/">
-  <meta property="og:title" content="Pokémon Database Maker | Shuntaro Shimizu">
-  <meta property="og:description" content="ポケットモンスター ソード・シールドのポケモン図鑑をCSV形式で生成するCLIアプリケーション"><meta property="og:image" content="/project/pokemon_dbmaker/featured.jpg">
-  <meta property="twitter:image" content="/project/pokemon_dbmaker/featured.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="/project/senryu_bot/">
+  <meta property="og:title" content="Senryu Bot | Shuntaro Shimizu">
+  <meta property="og:description" content="メッセージから川柳を生成するBOT"><meta property="og:image" content="/img/icon-192.png">
+  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2019-11-22T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2019-08-09T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2019-11-22T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2019-08-09T00:00:00&#43;00:00">
   
 
   
@@ -255,16 +256,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/project/pokemon_dbmaker/"
+    "@id": "/project/senryu_bot/"
   },
-  "headline": "Pokémon Database Maker",
+  "headline": "Senryu Bot",
   
-  "image": [
-    "/project/pokemon_dbmaker/featured.jpg"
-  ],
-  
-  "datePublished": "2019-11-22T00:00:00Z",
-  "dateModified": "2019-11-22T00:00:00Z",
+  "datePublished": "2019-08-09T00:00:00Z",
+  "dateModified": "2019-08-09T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -279,7 +276,7 @@
       "url": "/img/icon-512.png"
     }
   },
-  "description": "ポケットモンスター ソード・シールドのポケモン図鑑をCSV形式で生成するCLIアプリケーション"
+  "description": "メッセージから川柳を生成するBOT"
 }
 </script>
 
@@ -297,7 +294,7 @@
 
 
 
-  <title>Pokémon Database Maker | Shuntaro Shimizu</title>
+  <title>Senryu Bot | Shuntaro Shimizu</title>
 
 </head>
 
@@ -521,24 +518,18 @@
 
 
 
-
-
-
-
-
-
-
+  
 
   
   
-
-
+  
 <div class="article-container pt-3">
-  <h1>Pokémon Database Maker</h1>
+  <h1>Senryu Bot</h1>
 
   
 
   
+    
 
 
 <div class="article-metadata">
@@ -552,7 +543,7 @@
     
       
     
-    Nov 22, 2019
+    Aug 9, 2019
   </span>
   
 
@@ -569,29 +560,22 @@
 
 </div>
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 470px; max-height: 264px;">
-  <div style="position: relative">
-    <img src="/project/pokemon_dbmaker/featured.jpg" alt="" class="featured-image">
     
-  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 </div>
 
 
@@ -600,20 +584,16 @@
 
     <div class="article-style">
       <h2 id="1-">1. 概要</h2>
-<p><a href="https://gamewith.jp/pokemon-sword-shield/article/show/175731">GameWith</a>のWebサイトをクローリングし、ポケットモンスター ソード・シールドのポケモン図鑑を生成するCLIアプリケーションです。ポケモンを統計的視点から分析してみたい人や、育成したポケモンを管理したい人などにオススメです。</p>
-<h2 id="2--">2. ポケットモンスター ソード・シールドとは？</h2>
-<p>2019年11月15日にNintendo Switchから発売されたポケットモンスターシリーズの最新作です (2019年11月現在)。ポケットモンスターシリーズ初のNintendo Switch対応ソフトであり、従来の3DS版と比較してグラフィックが非常に綺麗になりました。対戦では、「メガシンカ」と「Zワザ」が廃止され、新たに「ダイマックス」が実装されたことで、より一層おもしろい駆け引きを楽しめる仕様となりました。</p>
-<h2 id="3-">3. 使用した言語・フレームワーク</h2>
+<p><a href="https://www.dreamarts.co.jp/">株式会社ドリーム・アーツ</a>さんでの5日間のハッカソン形式のインターンで開発した成果物です。「NLPで、働く人の「協創」を実現するサービスを開発しよう！」というテーマで、ドリーム・アーツさんの自社プロダクトである「<a href="https://www.chiwawa.one/">知話輪</a>」上で動作するチャットボットの開発に取り組みました。</p>
+<p><a href="https://github.com/shimech/boston_terrier">GitHubリポジトリ</a></p>
+<h2 id="2-">2. 使用した言語・フレームワーク</h2>
 <ul>
-<li>Python (BeautifulSoup / pandas)</li>
+<li>Python (flask / keras / BeautifulSoup)</li>
+<li>MeCab</li>
+<li>Word2Vec</li>
+<li>Seq2Seq / LSTM / Attention</li>
 <li>Docker</li>
 </ul>
-<h2 id="4-">4. 使い方</h2>
-<p>CLIで以下のコマンドを叩いてください。GitHubリポジトリは<a href="https://github.com/shimech/pokemon_dbmaker">こちら</a></p>
-<pre><code class="language-shell">$ git clone https://github.com/shimech/pokemon_dbmaker.git
-$ cd pokemon_dbmaker/
-$ sh run.sh
-</code></pre>
 
     </div>
 
@@ -625,9 +605,7 @@ $ sh run.sh
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tags/hobby/">Hobby</a>
-  
-  <a class="badge badge-light" href="/tags/pokemon/">Pokémon</a>
+  <a class="badge badge-light" href="/tags/hackathon/">Hackathon</a>
   
 </div>
 
@@ -644,7 +622,7 @@ $ sh run.sh
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/project/pokemon_dbmaker/&amp;text=Pok%c3%a9mon%20Database%20Maker" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/project/senryu_bot/&amp;text=Senryu%20Bot" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -657,7 +635,7 @@ $ sh run.sh
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/project/pokemon_dbmaker/&amp;t=Pok%c3%a9mon%20Database%20Maker" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/project/senryu_bot/&amp;t=Senryu%20Bot" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -670,7 +648,7 @@ $ sh run.sh
       
       
       <li>
-        <a href="mailto:?subject=Pok%c3%a9mon%20Database%20Maker&amp;body=/project/pokemon_dbmaker/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Senryu%20Bot&amp;body=/project/senryu_bot/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -683,7 +661,7 @@ $ sh run.sh
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/project/pokemon_dbmaker/&amp;title=Pok%c3%a9mon%20Database%20Maker" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/project/senryu_bot/&amp;title=Senryu%20Bot" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -696,7 +674,7 @@ $ sh run.sh
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Pok%c3%a9mon%20Database%20Maker%20/project/pokemon_dbmaker/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Senryu%20Bot%20/project/senryu_bot/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -709,7 +687,7 @@ $ sh run.sh
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/project/pokemon_dbmaker/&amp;title=Pok%c3%a9mon%20Database%20Maker" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/project/senryu_bot/&amp;title=Senryu%20Bot" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -850,15 +828,6 @@ $ sh run.sh
 
 
   
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/project/board_game_reporter/">Board Game Reporter</a></li>
-      
-    </ul>
-  </div>
   
 
 

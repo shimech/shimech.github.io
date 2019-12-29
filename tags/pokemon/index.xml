@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Shuntaro Shimizu</title>
-    <link>/project/</link>
-      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
-    <description>Projects</description>
+    <title>Pokémon | Shuntaro Shimizu</title>
+    <link>/tags/pokemon/</link>
+      <atom:link href="/tags/pokemon/index.xml" rel="self" type="application/rss+xml" />
+    <description>Pokémon</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 22 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
-      <title>Projects</title>
-      <link>/project/</link>
+      <title>Pokémon</title>
+      <link>/tags/pokemon/</link>
     </image>
     
     <item>
@@ -32,33 +32,6 @@
 $ cd pokemon_dbmaker/
 $ sh run.sh
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Board Game Reporter</title>
-      <link>/project/board_game_reporter/</link>
-      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/project/board_game_reporter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Senryu Bot</title>
-      <link>/project/senryu_bot/</link>
-      <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/project/senryu_bot/</guid>
-      <description>&lt;h2 id=&#34;1-&#34;&gt;1. 概要&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.dreamarts.co.jp/&#34;&gt;株式会社ドリーム・アーツ&lt;/a&gt;さんでの5日間のハッカソン形式のインターンで開発した成果物です。「NLPで、働く人の「協創」を実現するサービスを開発しよう！」というテーマで、ドリーム・アーツさんの自社プロダクトである「&lt;a href=&#34;https://www.chiwawa.one/&#34;&gt;知話輪&lt;/a&gt;」上で動作するチャットボットの開発に取り組みました。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/shimech/boston_terrier&#34;&gt;GitHubリポジトリ&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;2-&#34;&gt;2. 使用した言語・フレームワーク&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Python (flask / keras / BeautifulSoup)&lt;/li&gt;
-&lt;li&gt;MeCab&lt;/li&gt;
-&lt;li&gt;Word2Vec&lt;/li&gt;
-&lt;li&gt;Seq2Seq / LSTM / Attention&lt;/li&gt;
-&lt;li&gt;Docker&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
