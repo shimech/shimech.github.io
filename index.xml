@@ -5,12 +5,28 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Shuntaro Shimizu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Shuntaro Shimizu</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 29 Dec 2019 13:57:38 +0900</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Shuntaro Shimizu</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Pokémon Database Maker</title>
+      <link>/project/pokemon_dbmaker/</link>
+      <pubDate>Sun, 29 Dec 2019 13:57:38 +0900</pubDate>
+      <guid>/project/pokemon_dbmaker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Board Game Reporter</title>
+      <link>/project/board_game_reporter/</link>
+      <pubDate>Sun, 29 Dec 2019 13:07:01 +0900</pubDate>
+      <guid>/project/board_game_reporter/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
