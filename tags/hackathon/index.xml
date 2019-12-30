@@ -26,8 +26,16 @@
 &lt;li&gt;MeCab&lt;/li&gt;
 &lt;li&gt;Word2Vec&lt;/li&gt;
 &lt;li&gt;Seq2Seq / LSTM / Attention&lt;/li&gt;
+&lt;li&gt;Graph Database&lt;/li&gt;
 &lt;li&gt;Docker&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;3-&#34;&gt;3. 結果&lt;/h2&gt;
+&lt;p&gt;ご覧の通り、残念な結果でした。敗因は、川柳生成を完全にモデルに委ねてしまったことです。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;単語は元メッセージからそのまま引用する&lt;/li&gt;
+&lt;li&gt;「名詞」+「動詞」などの規則を定義する&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;など、ルールベースである程度生成すれば少し改善したかなと思います。&lt;/p&gt;
 </description>
     </item>
     
