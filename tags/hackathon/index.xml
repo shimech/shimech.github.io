@@ -17,10 +17,10 @@
       <link>/project/senryu_bot/</link>
       <pubDate>Fri, 09 Aug 2019 00:00:00 +0000</pubDate>
       <guid>/project/senryu_bot/</guid>
-      <description>&lt;h2 id=&#34;1-&#34;&gt;1. 概要&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;1-概要&#34;&gt;1. 概要&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.dreamarts.co.jp/&#34;&gt;株式会社ドリーム・アーツ&lt;/a&gt;さんでの5日間のハッカソン形式のインターンで開発した成果物です。「NLPで、働く人の「協創」を実現するサービスを開発しよう！」というテーマで、ドリーム・アーツさんの自社プロダクトである「&lt;a href=&#34;https://www.chiwawa.one/&#34;&gt;知話輪&lt;/a&gt;」上で動作するチャットボットの開発に取り組みました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/shimech/boston_terrier&#34;&gt;GitHubリポジトリ&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;2-&#34;&gt;2. 使用した言語・フレームワーク&lt;/h2&gt;
+&lt;h2 id=&#34;2-使用した言語フレームワーク&#34;&gt;2. 使用した言語・フレームワーク&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Python (flask / keras / BeautifulSoup)&lt;/li&gt;
 &lt;li&gt;MeCab&lt;/li&gt;
@@ -29,7 +29,7 @@
 &lt;li&gt;Graph Database&lt;/li&gt;
 &lt;li&gt;Docker&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;3-&#34;&gt;3. 結果&lt;/h2&gt;
+&lt;h2 id=&#34;3-結果&#34;&gt;3. 結果&lt;/h2&gt;
 &lt;p&gt;ご覧の通り、残念な結果でした。敗因は、川柳生成を完全にモデルに委ねてしまったことです。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;単語は元メッセージからそのまま引用する&lt;/li&gt;

@@ -5,7 +5,7 @@
     <link>/tags/pokemon/</link>
       <atom:link href="/tags/pokemon/index.xml" rel="self" type="application/rss+xml" />
     <description>Pokémon</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©️ 2019 Shuntaro Shimizu</copyright><lastBuildDate>Fri, 22 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©️ 2019 Shuntaro Shimizu</copyright><lastBuildDate>Tue, 07 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Pokémon</title>
@@ -13,20 +13,41 @@
     </image>
     
     <item>
+      <title>ポケモン種族値クイズ</title>
+      <link>/project/pokemon_shuzokuchi_quiz/</link>
+      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/project/pokemon_shuzokuchi_quiz/</guid>
+      <description>&lt;h2 id=&#34;1-概要&#34;&gt;1. 概要&lt;/h2&gt;
+&lt;p&gt;ポケットモンスター ソード・シールドに登場するポケモンの種族値クイズアプリケーションです。リンクは&lt;a href=&#34;https://shimech.github.io/pokemon_shuzokuchi_quiz/&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2-種族値とは&#34;&gt;2. 種族値とは？&lt;/h2&gt;
+&lt;p&gt;ポケモンは、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HP (H)&lt;/li&gt;
+&lt;li&gt;こうげき (A)&lt;/li&gt;
+&lt;li&gt;ぼうぎょ (B)&lt;/li&gt;
+&lt;li&gt;とくこう (C)&lt;/li&gt;
+&lt;li&gt;とくぼう (D)&lt;/li&gt;
+&lt;li&gt;すばやさ (S)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;の6つの能力値を持っています。これらの能力値は、そのポケモンの種族特有の「&lt;strong&gt;種族値&lt;/strong&gt;」と個体特有の「&lt;strong&gt;個体値&lt;/strong&gt;」、トレーナーが自由に配分できる「&lt;strong&gt;努力値&lt;/strong&gt;」から決定されます。その中でも、種族値は特に能力値への寄与が大きく、ポケモンの特徴に大きく影響してきます。また、ポケモンバトル中においても種族値はかなり重要で、これを覚えているか否かはバトルの勝敗を大きく左右します。本アプリで全ポケモンの種族値を覚え、ポケモンバトルを有利に進めましょう！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Pokémon Database Maker</title>
       <link>/project/pokemon_dbmaker/</link>
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/project/pokemon_dbmaker/</guid>
-      <description>&lt;h2 id=&#34;1-&#34;&gt;1. 概要&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;1-概要&#34;&gt;1. 概要&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://gamewith.jp/pokemon-sword-shield/article/show/175731&#34;&gt;GameWith&lt;/a&gt;のWebサイトをクローリングし、ポケットモンスター ソード・シールドのポケモン図鑑を生成するCLIアプリケーションです。ポケモンを統計的視点から分析してみたい人や、育成したポケモンを管理したい人などにオススメです。&lt;/p&gt;
-&lt;h2 id=&#34;2--&#34;&gt;2. ポケットモンスター ソード・シールドとは？&lt;/h2&gt;
+&lt;h2 id=&#34;2-ポケットモンスター-ソードシールドとは&#34;&gt;2. ポケットモンスター ソード・シールドとは？&lt;/h2&gt;
 &lt;p&gt;2019年11月15日にNintendo Switchから発売されたポケットモンスターシリーズの最新作です (2019年11月現在)。ポケットモンスターシリーズ初のNintendo Switch対応ソフトであり、従来の3DS版と比較してグラフィックが非常に綺麗になりました。対戦では、「メガシンカ」と「Zワザ」が廃止され、新たに「ダイマックス」が実装されたことで、より一層おもしろい駆け引きを楽しめる仕様となりました。&lt;/p&gt;
-&lt;h2 id=&#34;3-&#34;&gt;3. 使用した言語・フレームワーク&lt;/h2&gt;
+&lt;h2 id=&#34;3-使用した言語フレームワーク&#34;&gt;3. 使用した言語・フレームワーク&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Python (BeautifulSoup / pandas)&lt;/li&gt;
 &lt;li&gt;Docker&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;4-&#34;&gt;4. 使い方&lt;/h2&gt;
+&lt;h2 id=&#34;4-使い方&#34;&gt;4. 使い方&lt;/h2&gt;
 &lt;p&gt;CLIで以下のコマンドを叩いてください。GitHubリポジトリは&lt;a href=&#34;https://github.com/shimech/pokemon_dbmaker&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ git clone https://github.com/shimech/pokemon_dbmaker.git
 $ cd pokemon_dbmaker/
