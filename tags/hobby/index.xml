@@ -17,20 +17,7 @@
       <link>/project/pokemon_shuzokuchi_quiz/</link>
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       <guid>/project/pokemon_shuzokuchi_quiz/</guid>
-      <description>&lt;h2 id=&#34;1-概要&#34;&gt;1. 概要&lt;/h2&gt;
-&lt;p&gt;ポケットモンスター ソード・シールドに登場するポケモンの種族値クイズアプリケーションです。リンクは&lt;a href=&#34;https://shimech.github.io/pokemon_shuzokuchi_quiz/&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;2-種族値とは&#34;&gt;2. 種族値とは？&lt;/h2&gt;
-&lt;p&gt;ポケモンは、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;HP (H)&lt;/li&gt;
-&lt;li&gt;こうげき (A)&lt;/li&gt;
-&lt;li&gt;ぼうぎょ (B)&lt;/li&gt;
-&lt;li&gt;とくこう (C)&lt;/li&gt;
-&lt;li&gt;とくぼう (D)&lt;/li&gt;
-&lt;li&gt;すばやさ (S)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;の6つの能力値を持っています。これらの能力値は、そのポケモンの種族特有の「&lt;strong&gt;種族値&lt;/strong&gt;」と個体特有の「&lt;strong&gt;個体値&lt;/strong&gt;」、トレーナーが自由に配分できる「&lt;strong&gt;努力値&lt;/strong&gt;」から決定されます。その中でも、種族値は特に能力値への寄与が大きく、ポケモンの特徴に大きく影響してきます。また、ポケモンバトル中においても種族値はかなり重要で、これを覚えているか否かはバトルの勝敗を大きく左右します。本アプリで全ポケモンの種族値を覚え、ポケモンバトルを有利に進めましょう！&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
