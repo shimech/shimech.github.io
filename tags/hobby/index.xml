@@ -5,12 +5,20 @@
     <link>/tags/hobby/</link>
       <atom:link href="/tags/hobby/index.xml" rel="self" type="application/rss+xml" />
     <description>Hobby</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©️ 2020 Shuntaro Shimizu</copyright><lastBuildDate>Tue, 07 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©️ 2020 Shuntaro Shimizu</copyright><lastBuildDate>Sun, 05 Apr 2020 00:17:32 +0900</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Hobby</title>
       <link>/tags/hobby/</link>
     </image>
+    
+    <item>
+      <title>HIT &amp; BLOW</title>
+      <link>/project/hit-and-blow/</link>
+      <pubDate>Sun, 05 Apr 2020 00:17:32 +0900</pubDate>
+      <guid>/project/hit-and-blow/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ポケモン種族値クイズ</title>
