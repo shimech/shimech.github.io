@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="ポケットモンスター ソード・シールドのポケモン図鑑をCSV形式で生成するCLIアプリケーション">
+  <meta name="description" content="ポケモンの全国図鑑をCSV形式で生成するCLIアプリケーション">
 
   
   <link rel="alternate" hreflang="en-us" href="/project/pokemon_dbmaker/">
@@ -225,7 +225,7 @@
   <meta property="og:site_name" content="Shuntaro Shimizu">
   <meta property="og:url" content="/project/pokemon_dbmaker/">
   <meta property="og:title" content="Pokémon Database Maker | Shuntaro Shimizu">
-  <meta property="og:description" content="ポケットモンスター ソード・シールドのポケモン図鑑をCSV形式で生成するCLIアプリケーション"><meta property="og:image" content="/project/pokemon_dbmaker/featured.jpg">
+  <meta property="og:description" content="ポケモンの全国図鑑をCSV形式で生成するCLIアプリケーション"><meta property="og:image" content="/project/pokemon_dbmaker/featured.jpg">
   <meta property="twitter:image" content="/project/pokemon_dbmaker/featured.jpg"><meta property="og:locale" content="en-us">
   
     
@@ -279,7 +279,7 @@
       "url": "/img/icon-512.png"
     }
   },
-  "description": "ポケットモンスター ソード・シールドのポケモン図鑑をCSV形式で生成するCLIアプリケーション"
+  "description": "ポケモンの全国図鑑をCSV形式で生成するCLIアプリケーション"
 }
 </script>
 
@@ -600,19 +600,19 @@
 
     <div class="article-style">
       <h2 id="1-概要">1. 概要</h2>
-<p><a href="https://gamewith.jp/pokemon-sword-shield/article/show/175731">GameWith</a>のWebサイトをクローリングし、ポケットモンスター ソード・シールドのポケモン図鑑を生成するCLIアプリケーションです。ポケモンを統計的視点から分析してみたい人や、育成したポケモンを管理したい人などにオススメです。</p>
-<h2 id="2-ポケットモンスター-ソードシールドとは">2. ポケットモンスター ソード・シールドとは？</h2>
-<p>2019年11月15日にNintendo Switchから発売されたポケットモンスターシリーズの最新作です (2019年11月現在)。ポケットモンスターシリーズ初のNintendo Switch対応ソフトであり、従来の3DS版と比較してグラフィックが非常に綺麗になりました。対戦では、「メガシンカ」と「Zワザ」が廃止され、新たに「ダイマックス」が実装されたことで、より一層おもしろい駆け引きを楽しめる仕様となりました。</p>
+<p><a href="https://yakkun.com/swsh/stats_list.htm?mode=all">ポケモン徹底攻略</a>さんの Web サイトをクローリングし、ポケモンの全国図鑑を生成する CLI アプリケーションです。ポケモンを統計的視点から分析してみたい人や、育成したポケモンを管理したい人などにオススメです。</p>
+<h2 id="2-ポケットモンスター-ソードシールドについて">2. ポケットモンスター ソード・シールドについて</h2>
+<p>2019 年 11 月 15 日に Nintendo Switch から発売されたポケットモンスターシリーズの最新作です (2019 年 11 月現在)。ポケットモンスターシリーズ初の Nintendo Switch 対応ソフトであり、従来の 3DS 版と比較してグラフィックが非常に綺麗になりました。対戦では、「メガシンカ」と「Z ワザ」が廃止され、新たに「ダイマックス」が実装されたことで、より一層おもしろい駆け引きを楽しめる仕様となりました。</p>
 <h2 id="3-使用した言語フレームワーク">3. 使用した言語・フレームワーク</h2>
 <ul>
 <li>Python (BeautifulSoup / pandas)</li>
 <li>Docker</li>
 </ul>
 <h2 id="4-使い方">4. 使い方</h2>
-<p>CLIで以下のコマンドを叩いてください。GitHubリポジトリは<a href="https://github.com/shimech/pokemon_dbmaker">こちら</a></p>
+<p>CLI で以下のコマンドを叩いてください。GitHub リポジトリは<a href="https://github.com/shimech/pokemon-db-maker">こちら</a></p>
 <pre><code class="language-shell">$ git clone https://github.com/shimech/pokemon_dbmaker.git
-$ cd pokemon_dbmaker/
-$ sh run.sh
+$ cd pokemon-db-maker/
+$ pipenv run docker
 </code></pre>
 
     </div>

@@ -34,19 +34,19 @@
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/project/pokemon_dbmaker/</guid>
       <description>&lt;h2 id=&#34;1-概要&#34;&gt;1. 概要&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://gamewith.jp/pokemon-sword-shield/article/show/175731&#34;&gt;GameWith&lt;/a&gt;のWebサイトをクローリングし、ポケットモンスター ソード・シールドのポケモン図鑑を生成するCLIアプリケーションです。ポケモンを統計的視点から分析してみたい人や、育成したポケモンを管理したい人などにオススメです。&lt;/p&gt;
-&lt;h2 id=&#34;2-ポケットモンスター-ソードシールドとは&#34;&gt;2. ポケットモンスター ソード・シールドとは？&lt;/h2&gt;
-&lt;p&gt;2019年11月15日にNintendo Switchから発売されたポケットモンスターシリーズの最新作です (2019年11月現在)。ポケットモンスターシリーズ初のNintendo Switch対応ソフトであり、従来の3DS版と比較してグラフィックが非常に綺麗になりました。対戦では、「メガシンカ」と「Zワザ」が廃止され、新たに「ダイマックス」が実装されたことで、より一層おもしろい駆け引きを楽しめる仕様となりました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://yakkun.com/swsh/stats_list.htm?mode=all&#34;&gt;ポケモン徹底攻略&lt;/a&gt;さんの Web サイトをクローリングし、ポケモンの全国図鑑を生成する CLI アプリケーションです。ポケモンを統計的視点から分析してみたい人や、育成したポケモンを管理したい人などにオススメです。&lt;/p&gt;
+&lt;h2 id=&#34;2-ポケットモンスター-ソードシールドについて&#34;&gt;2. ポケットモンスター ソード・シールドについて&lt;/h2&gt;
+&lt;p&gt;2019 年 11 月 15 日に Nintendo Switch から発売されたポケットモンスターシリーズの最新作です (2019 年 11 月現在)。ポケットモンスターシリーズ初の Nintendo Switch 対応ソフトであり、従来の 3DS 版と比較してグラフィックが非常に綺麗になりました。対戦では、「メガシンカ」と「Z ワザ」が廃止され、新たに「ダイマックス」が実装されたことで、より一層おもしろい駆け引きを楽しめる仕様となりました。&lt;/p&gt;
 &lt;h2 id=&#34;3-使用した言語フレームワーク&#34;&gt;3. 使用した言語・フレームワーク&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Python (BeautifulSoup / pandas)&lt;/li&gt;
 &lt;li&gt;Docker&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;4-使い方&#34;&gt;4. 使い方&lt;/h2&gt;
-&lt;p&gt;CLIで以下のコマンドを叩いてください。GitHubリポジトリは&lt;a href=&#34;https://github.com/shimech/pokemon_dbmaker&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;CLI で以下のコマンドを叩いてください。GitHub リポジトリは&lt;a href=&#34;https://github.com/shimech/pokemon-db-maker&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ git clone https://github.com/shimech/pokemon_dbmaker.git
-$ cd pokemon_dbmaker/
-$ sh run.sh
+$ cd pokemon-db-maker/
+$ pipenv run docker
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
