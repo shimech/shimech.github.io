@@ -59,9 +59,10 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;4-使い方&#34;&gt;4. 使い方&lt;/h2&gt;
 &lt;p&gt;CLI で以下のコマンドを叩いてください。GitHub リポジトリは&lt;a href=&#34;https://github.com/shimech/pokemon-db-maker&#34;&gt;こちら&lt;/a&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;$ git clone https://github.com/shimech/pokemon_dbmaker.git
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;$ git clone https://github.com/shimech/pokemon-db-maker.git
 $ cd pokemon-db-maker/
-$ pipenv run docker
+$ make build
+$ make docker-run
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
